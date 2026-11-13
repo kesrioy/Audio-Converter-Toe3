@@ -14,4 +14,4 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "TOE3 Audio Converter"
-include(':app')
+include(":app")
