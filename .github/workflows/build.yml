@@ -23,6 +23,9 @@ jobs:
       with:
         gradle-version: '8.5'
 
+    - name: Generate Gradle Wrapper
+      run: gradle wrapper --gradle-version 8.5
+
     - name: Build with Gradle
       run: ./gradlew assembleDebug
 
